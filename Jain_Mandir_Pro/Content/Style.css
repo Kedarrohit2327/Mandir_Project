@@ -1,0 +1,321 @@
+﻿body {
+    font-family: Tahoma;
+    display: flex;
+    margin: 0;
+    color: magenta;
+}
+input {
+    color: darkblue ;
+    opacity: 1; 
+}
+/*asp:TextBox {
+    color: darkblue;
+    opacity: 1;
+}*/
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/*.tabcontent {
+    display: none;
+}*/
+   /* .tabcontent h2 {
+        margin-bottom: 10px;
+    }*/
+
+    /*.tabcontent p {
+        margin-top: 0;
+    }*/
+h2{
+    color:darkblue;
+}
+.container {
+    padding-left: 300px;
+    padding-right: 20px;
+    /*padding-top: 30px;*/
+
+    justify-content: center;
+}
+/*.col{
+    padding: 20px 0px 0px 0px;
+}*/
+.rotate {
+    transform: rotate(90deg);
+}
+close-btn {
+    position: absolute;
+   /* color: #fff;
+    font-size: 23px;*/
+    right: 0px;
+    /*margin: 15px;*/
+    cursor: pointer;
+}
+.master1 {
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.p-mid {
+    margin-right: 150px;
+}
+.m-head {
+    /*text-align: center;*/
+    margin-left: 400px;
+}
+.m-head2 {
+    margin-left: 280px;
+}
+.t-head {
+    margin-left: 250px;
+}
+.txt-color1 {
+    color: darkblue;
+}
+.m-footer {
+    margin-left: 400px;
+}
+.calander {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.chadhava1 {
+    margin-left: 200px;
+}
+.tm-head {
+    margin-left: 350px;
+}
+.bg-warning {
+    border-radius: 5px;
+    height: 36px;
+    width: 60px;
+}
+    .bg-warning a {
+        text-decoration: none;
+    }
+
+
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    top: 0;
+    left: 0;
+    background-color: #eb7575;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 10px 10px;
+}
+.bg-img {
+    height: 540px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 13px;}
+}
+.container123 {
+    padding-left: 20px;
+    padding-right: 20px;
+    /*padding-top: 30px;*/
+}
+
+
+
+
+/*Sidenav CSS*/
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-family:Tahoma;
+    min-height: 100vh;
+    background: #e4eaeb;
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.side-bar {
+    background: #eb7575;
+    backdrop-filter: blur(15px);
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition-property: left;
+}
+
+    .side-bar::-webkit-scrollbar {
+        width: 0px;
+    }
+
+
+
+.side-bar {
+    left: 0;
+}
+.temple_name {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Tahoma;
+    letter-spacing: 2px;
+    color: #3232a7;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 13px;
+    font-family: Tahoma;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.side-bar .menu {
+    width: 100%;
+    margin-top: 10px;
+}
+
+    .side-bar .menu .item {
+        position: relative;
+        cursor: pointer;
+    }
+
+        .side-bar .menu .item a {
+            color: #3232a7;
+            font-size: 16px;
+            text-decoration: none;
+            display: block;
+            padding: 5px 30px;
+            line-height: 40px;
+        }
+
+            .side-bar .menu .item a:hover {
+                background: #eb7575;
+                transition: 0.3s ease;
+            }
+
+        .side-bar .menu .item i {
+            margin-right: 15px;
+        }
+
+        .side-bar .menu .item a .dropdown {
+            position: absolute;
+            right: 0;
+            margin: 20px;
+            transition: 0.3s ease;
+        }
+.bg12 {
+    background-color: red;
+    border: none;
+    border-radius:10px;
+}
+.side-bar .menu .item .sub-menu {
+    background: #eb7575;
+    display: none;
+}
+
+            .side-bar .menu .item .sub-menu a {
+                padding-left: 60px;
+            }
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.close-btn {
+    position: absolute;
+    color: #fff;
+    font-size: 23px;
+    right: 0px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.menu-btn {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.main {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+    .main h1 {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 60px;
+        text-align: center;
+        line-height: 0px;
+    }
+
+@media (max-width: 900px) {
+    .main h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+.mandir_logo {
+    width: 100px;
+    margin: 15px;
+    border-radius: 50%;
+    margin-left: 70px;
+    border: 3px solid #b4b8b9;
+}
+
+header {
+    background: #5e79d3;
+    font-family:Tahoma;
+}
+
+
+.txt-clr {
+    color: maroon;
+}
+.txt-clear{
+    color:blue;
+}
+.txt-clr1{
+color:red;
+}

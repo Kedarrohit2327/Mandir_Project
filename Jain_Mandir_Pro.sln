@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jain_Mandir_Pro", "Jain_Mandir_Pro\Jain_Mandir_Pro.csproj", "{BDE835AC-44C8-4D7D-A9C5-778E60997CCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE835AC-44C8-4D7D-A9C5-778E60997CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE835AC-44C8-4D7D-A9C5-778E60997CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE835AC-44C8-4D7D-A9C5-778E60997CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE835AC-44C8-4D7D-A9C5-778E60997CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {086CBC9E-499E-49CD-9902-8E222B79545B}
+	EndGlobalSection
+EndGlobal

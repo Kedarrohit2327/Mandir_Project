@@ -1,0 +1,109 @@
+﻿
+
+
+
+/*page color*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*background-image: url('mandir-img.jpg');*/
+    background-color: #89e3c1;
+    background-repeat: no-repeat;
+    background-size: auto;
+    backdrop-filter: blur(0px)
+}
+/*logincontainer*/
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*   background-color: #fa805f;  Light orange background */
+    /*    background: url(https://images.unsplash.com/photo-1468183654773-77e2f0bb6bf9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: auto;
+    backdrop-filter: blur(20px);  Glass effect blur */
+}
+
+/* this is form card*/
+
+.card {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #89ABE3; /* Black form background */
+    border: 2px solid black; /* Black border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.5), 0 0 0 4px rgba(0, 0, 0, 0.2); /* 3D shadow effect */
+}
+
+/* this is form card header */
+.card-header {
+    background-color: #89ABE3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px 20px 0 0; /* Rounded corners */
+}
+/* this is form card body */
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+/*this datalist label text*/
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff; /* White label text color */
+}
+/*this datalist text box */
+.form-control {
+    border: none;
+    border-bottom: 2px solid #ced4da; /* Bottom border */
+    border-radius: 0; /* No border-radius */
+    padding: 10px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    background-color: transparent; /* Transparent background */
+    color: #fff; /* White text color */
+}
+
+    .form-control:hover {
+        border-color: #4caf50;
+    }
+
+    .form-control.error {
+        border-color: #ff9999;
+    }
+/*    this is  button*/
+.btn-login {
+    background-color: #ea3200;
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    .btn-login:hover {
+        background-color: #ff8000;
+    }
+
+.txt-clr {
+    color: maroon;
+}
+
+.txt-clear1 {
+    color: blue;
+    text-align: center;
+}

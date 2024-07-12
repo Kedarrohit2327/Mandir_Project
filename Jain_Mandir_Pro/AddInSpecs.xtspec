@@ -1,0 +1,12 @@
+<package>
+  <metadata>
+    <id>Jain_Mandir_Pro</id>
+    <version>1.0.0</version>
+    <title>Jain_Mandir_Pro</title>
+    <description>
+    </description>
+    <authors>
+    </authors>
+    <serviceType>DocumentServices</serviceType>
+  </metadata>
+</package>
